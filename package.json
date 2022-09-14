@@ -1,0 +1,38 @@
+{
+  "name": "courseProject",
+  "version": "0.0.1",
+  "author": "彭道宽",
+  "description": "广州华商学院前端项目",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./webpack/webpack.dev.js",
+    "build": "webpack --config ./webpack/webpack.prod.js"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.14.0",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "autoprefixer": "^9.0.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  }
+}
