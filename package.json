@@ -2,7 +2,7 @@
   "name": "courseProject",
   "version": "0.0.1",
   "author": "彭道宽",
-  "description": "广州华商学院前端项目",
+  "description": "React 前端项目",
   "main": "dist/index.js",
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack/webpack.dev.js",
