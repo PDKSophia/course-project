@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/">
-          <div className="container">广州华商学院前端项目搭建起来了！!!</div>
+          <div className="container">React 前端项目搭建起来了！!!</div>
         </Route>
       </Switch>
     </Router>
