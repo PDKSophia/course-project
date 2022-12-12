@@ -1,6 +1,6 @@
 ## 前端项目手把手搭建
 
-前文档将会手把手带同学们搭建广州华商学院前端项目，**请耐心阅读！！！**
+前文档将会手把手带同学们搭建广州华商学院前端项目，**请耐心阅读！！！ 单词一定要拼对！！！**
 
 ### 1. 安装 Node 环境
 
@@ -35,7 +35,7 @@ cd courseProject
   "name": "courseProject",
   "version": "0.0.1",
   "author": "彭道宽",
-  "description": "广州华商学院前端项目",
+  "description": "React 前端项目",
   "main": "dist/index.js"
 }
 ```
@@ -96,7 +96,7 @@ module.exports = {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" />
-    <title>广州华商学院前端项目</title>
+    <title>React 前端项目</title>
     <style>
       * {
         margin: 0px;
@@ -128,7 +128,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/">
-          <div className="container">广州华商学院前端项目搭建起来了！!!</div>
+          <div className="container">前端项目搭建起来了！!!</div>
         </Route>
       </Switch>
     </Router>
@@ -296,7 +296,7 @@ module.exports = webpackMerge.merge(prodConfig, baseConfig);
   "name": "courseProject",
   "version": "0.0.1",
   "author": "彭道宽",
-  "description": "广州华商学院前端项目",
+  "description": "React 前端项目",
   "main": "dist/index.js",
 
   // 这是新加的
