@@ -9,6 +9,7 @@ import PausePng from '../../static/pause.png';
 import PlayingPng from '../../static/playing.png';
 import RemarkPng from '../../static/remark.png';
 import VolumePng from '../../static/volume.png';
+import DownLoadPng from '../../static/download.png';
 
 const IconClickButton = () => {
   const onClickIcon = (text) => {
@@ -62,6 +63,11 @@ const IconClickButton = () => {
           src={VolumePng}
           className="icon-image"
           onClick={() => onClickIcon('音量')}
+        />
+        <img
+          src={DownLoadPng}
+          className="icon-image"
+          onClick={() => onClickIcon('下载')}
         />
       </div>
     </div>
