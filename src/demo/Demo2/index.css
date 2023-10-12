@@ -1,0 +1,97 @@
+.demo2 {
+  margin: 12px;
+  margin-top: 48px;
+}
+  
+.title2 {
+  color: black;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+.table2 {
+  display:flex;
+  margin-top: 12px;
+}
+.t {
+  width: 15%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #ccc;
+}
+.t:last-child {
+  border-right: none;
+}
+
+.value2 {
+  display:flex;
+}
+.v {
+  width: 15%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ccc;
+}
+.v:last-child {
+  border-right: none;
+}
+
+.action2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.btn2_view, .btn2_delete {
+  border: 1px solid #ccc;
+  padding: 0 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 8px;
+  cursor: pointer;
+  line-height: 24px;
+  height: 24px;
+}
+
+.btn2_view {
+  background-color: #198fff;
+  color: #fff;
+}
+
+.btn2_delete {
+  background-color: red;
+  color: #fff;
+}
+
+
+
+.action2_btn {
+  display:flex;
+  margin-top: 12px;
+}
+
+
+.action2_btn_random, .action2_btn_reset {
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.action2_btn_random:hover, .action2_btn_reset:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}

@@ -1,10 +1,5 @@
 .container {
   color: red;
   margin: 12px;
-  font-size: 32px;
+  font-size: 24px;
 }
-
-.demo-box {
-  padding: 24px 0;
-}
-
