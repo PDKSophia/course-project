@@ -11,6 +11,11 @@ import PlayMode from './simpleDemo/PlayMode';
 import Menu from './simpleDemo/Menu';
 import LoveMenu from './simpleDemo/LoveMenu';
 
+import RoutePage from './simpleDemo/RoutePage';
+import LoginPage from './simpleDemo/RoutePage/Login';
+import NoticePage from './simpleDemo/RoutePage/Notice';
+import PersonalPage from './simpleDemo/RoutePage/Personal';
+
 function App() {
   return (
     <Router>
@@ -28,12 +33,18 @@ function App() {
             <Menu />
             <LoveMenu />
           </WithDemoWrapper>
+          <WithDemoWrapper title="样例三：如何跳转路由？">
+            <RoutePage />
+          </WithDemoWrapper>
+        </Route>
+        <Route path="/login" exact>
+          <LoginPage />
         </Route>
         <Route path="/personal" exact>
-          {/* <Personal /> */}111
+          <PersonalPage />
         </Route>
         <Route path="/notice" exact>
-          {/* <Notice /> */}222
+          <NoticePage />
         </Route>
       </Switch>
     </Router>
