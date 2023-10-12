@@ -6,6 +6,10 @@ import WithDemoWrapper from './components/WithDemoWrapper';
 import CountNumber from './simpleDemo/CountNumber';
 import InputText from './simpleDemo/InputText';
 import InputTextSearch from './simpleDemo/InputTextSearch';
+import IconClickButton from './simpleDemo/IconClickButton';
+import PlayMode from './simpleDemo/PlayMode';
+import Menu from './simpleDemo/Menu';
+import LoveMenu from './simpleDemo/LoveMenu';
 
 function App() {
   return (
@@ -18,10 +22,12 @@ function App() {
             <InputText />
             <InputTextSearch />
           </WithDemoWrapper>
-          {/* <Demo1 />
-          <Demo2 />
-          <Demo3 />
-          <Demo4 /> */}
+          <WithDemoWrapper title="样例二：如何响应事件？">
+            <IconClickButton />
+            <PlayMode />
+            <Menu />
+            <LoveMenu />
+          </WithDemoWrapper>
         </Route>
         <Route path="/personal" exact>
           {/* <Personal /> */}111
