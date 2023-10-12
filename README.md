@@ -178,7 +178,14 @@ npm install clean-webpack-plugin --save-dev
 npm install babel-loader --save-dev
 ```
 
-### 11. 创建 Webpack 打包配置文件夹，区分环境
+### 11. 安装 file-loader，以便解析图片
+
+
+```bash
+npm install file-loader -D
+```
+
+### 12. 创建 Webpack 打包配置文件夹，区分环境
 
 新增 webpack 文件夹，分别创建：
 
@@ -211,6 +218,18 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader', 'postcss-loader'],
+      },
+      {
+        test: /\.(jpg|png|jpeg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name]_[hash].[ext]',
+              outputPath: 'images/',
+            },
+          },
+        ],
       },
     ],
   },
