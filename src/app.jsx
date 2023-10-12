@@ -5,6 +5,7 @@ import './app.css';
 import WithDemoWrapper from './components/WithDemoWrapper';
 import CountNumber from './simpleDemo/CountNumber';
 import InputText from './simpleDemo/InputText';
+import InputTextSearch from './simpleDemo/InputTextSearch';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <WithDemoWrapper title="样例一：如何操作数据？">
             <CountNumber />
             <InputText />
+            <InputTextSearch />
           </WithDemoWrapper>
           {/* <Demo1 />
           <Demo2 />
